@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
 
 import { DATA } from "@/lib/data";
+import { AvatarImage, Avatar, AvatarFallback } from "@/components/ui/avatar";
 
 export default function Home() {
 	return (
@@ -25,6 +26,10 @@ export default function Home() {
 						</Button>
 					))}
 				</div>
+				<Avatar>
+					<AvatarImage src={DATA.profilePicture}/>
+					<AvatarFallback>Abhishek Panda</AvatarFallback>
+				</Avatar>
 				<h2 className="text-xl font-bold">About</h2>
 				<p className="text-sm">{DATA.summary}</p>
 			</section>

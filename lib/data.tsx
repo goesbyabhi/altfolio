@@ -5,7 +5,7 @@ export const DATA = {
 	location: "Mumbai, India",
 	position: "Software Developer",
 	summary: "I am a Software Developer with a Bachelor of Engineering degree in Information Technology from Mumbai University. My expertise lies primarily in web development. Additionally, I have a keen interest in data analytics, and I am currently expanding my skills in GPU programming, reverse engineering, and AI-related technologies.",
-	profilePicture: "url here please",
+	profilePicture: "https://raw.githubusercontent.com/goesbyabhi/altfolio/main/assets/Avatar.jpeg?token=GHSAT0AAAAAACRGHM5GGQ4BPNLJEWYZEB6UZRJPQPA",
 	contact: {
 		email: "abhishekrpanda@gmail.com",
 		socials: [
