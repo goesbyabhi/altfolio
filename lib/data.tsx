@@ -5,8 +5,7 @@ export const DATA = {
 	name: "Abhishek Panda",
 	location: "Mumbai, India",
 	position: "Software Developer",
-	summary: "I am a Software Developer with a Bachelor of Engineering degree in Information Technology from Mumbai University. My expertise lies primarily in web development. Additionally, I have a keen interest in data analytics, and I am currently expanding my skills in GPU programming, reverse engineering, and AI-related technologies.",
-	// Upload your Avatar to either a git repo and use it by getting it's link (warning: each time you make a new commit, the link will get changed) or upload it on discord and pray that you get a cdn link that you can use it here. Or if you want a proper place to handle such stuff then use an aws s3 bucket with some sort of cloud front service ig (tho its an overkill but yea 🤷)
+	summary: "I am a Software Developer with a Bachelor of Engineering degree in Information Technology from Mumbai University. My expertise lies primarily in web development. Additionally, I have a keen interest in data analytics, and I am currently expanding my skills in GPU programming, reverse engineering and AI-related technologies.",
 	profilePicture: "https://cdn.discordapp.com/attachments/1207676124088242179/1232931374734770196/Avatar.jpeg?ex=662b4052&is=6629eed2&hm=422734f90bd4dcf6957874de10b7c61b76bca95588b8b9a6d812eaa370eb3d5f&",
 	contact: {
 		email: "abhishekrpanda@gmail.com",
@@ -37,8 +36,8 @@ export const DATA = {
 		institute: "University of Mumbai",
 		degree: "Bachelor's degree in Engineering",
 		course: "Information & Technology",
-		start: "2020",
-		end: "2024",
+		start: "Jun 2020",
+		end: " May 2024",
 		courseSubjects: ["Operating Systems", "Data Structures and Algorithms", "Computer Networks", "Database Management Systems", "Software Engineering", "Object Oriented Programming"]
 	},
 	work: [
@@ -168,10 +167,6 @@ export const DATA = {
 			description:
 				"A work in progress Rust implementation of the NeoFetch CLI tool.",
 			logo: [],
-			// link: {
-			//   label: "NeoRust",
-			//   href: "",
-			// },
 		},
 		{
 			title: "YuiOS",
@@ -183,10 +178,6 @@ export const DATA = {
 			],
 			description:
 				"A work in progress Operating System built with Rust.",
-			// link: {
-			//   label: "YuiOS",
-			//   href: "",
-			// },
 		},
 	],
 } as const;
