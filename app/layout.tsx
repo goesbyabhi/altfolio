@@ -14,7 +14,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={GeistMono.className}>{children}</body>
+			<body className={GeistMono.className}>
+			<div className="max-w-7xl m-auto">
+			{children}
+			</div>
+			</body>
 		</html>
 	);
 }

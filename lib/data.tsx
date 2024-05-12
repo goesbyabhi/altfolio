@@ -6,7 +6,7 @@ export const DATA = {
 	location: "Mumbai, India",
 	position: "Software Developer",
 	summary: "I am a Software Developer with a Bachelor of Engineering degree in Information Technology from Mumbai University. My expertise lies primarily in web development. Additionally, I have a keen interest in data analytics, and I am currently expanding my skills in GPU programming, reverse engineering and AI-related technologies.",
-	profilePicture: "https://cdn.discordapp.com/attachments/1207676124088242179/1232931374734770196/Avatar.jpeg?ex=662b4052&is=6629eed2&hm=422734f90bd4dcf6957874de10b7c61b76bca95588b8b9a6d812eaa370eb3d5f&",
+	profilePicture: "https://cdn.discordapp.com/attachments/1207676124088242179/1232931374734770196/Avatar.jpeg?ex=663faf92&is=663e5e12&hm=265629f796341ef30ba836ef7060dd72157503a7b592685c87ea59624f2462fc&",
 	contact: {
 		email: "abhishekrpanda@gmail.com",
 		socials: [
