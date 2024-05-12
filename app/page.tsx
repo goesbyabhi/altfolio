@@ -32,7 +32,7 @@ export default function Home() {
 				</div>
 				<div className="mt-2 ml-6 flex-none self-start">
 					<Avatar>
-						<AvatarImage src={DATA.profilePicture} />
+						<AvatarImage src={DATA.profilePicture} alt="My Face" />
 						<AvatarFallback>Abhishek Panda</AvatarFallback>
 					</Avatar>
 				</div>

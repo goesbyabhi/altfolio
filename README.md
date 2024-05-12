@@ -6,5 +6,5 @@
 - [x] Build the header section
 - [x] Implement Basic Skeleton
 - [x] Style it
-- [ ] Make it responsive
+- [x] Make it responsive
 - [ ] Setup a blog below the project part [Ref](https://github.com/vercel/examples/tree/main/solutions/blog)
