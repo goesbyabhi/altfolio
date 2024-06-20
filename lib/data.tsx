@@ -159,25 +159,35 @@ export const DATA = {
 			]
 		},
 		{
-			title: "NeoRust",
+			title: "BRayTracing",
 			techStack: [
-				"Rust",
-				"CLI",
+				"C++",
+				"GCC",
 			],
 			description:
-				"A work in progress Rust implementation of the NeoFetch CLI tool.",
-			logo: [],
+				"A basic raytracer in C++.",
+			link: [{
+				label: "BRayTracing",
+				icon: GitHubIcon,
+				href: "https://github.com/goesbyabhi/braytracing",
+			},
+			]
 		},
 		{
-			title: "YuiOS",
+			title: "QBuild",
 			techStack: [
-				"Rust",
-				"Operating System",
-				"CLI",
-				"Bootloader",
+				"C++",
+				"Make",
+				"GCC",
 			],
 			description:
-				"A work in progress Operating System built with Rust.",
+				"A basic build system that builds your C/C++ projects according to predefined config rules.",
+			link: [{
+				label: "QBuild",
+				icon: GitHubIcon,
+				href: "https://github.com/goesbyabhi/qbuild",
+			},
+			]
 		},
 	],
 } as const;
